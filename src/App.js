@@ -5,7 +5,7 @@ import Login from './pages/Login/Login';
 import { AppBar} from '@mui/material';
 import SignUp from './pages/SignUp/SignUp';
 
-export const uri = process.env.APP_URL;
+export const uri = process.env.REACT_APP_SERVER_URL;
 
 function App() {
   return (
