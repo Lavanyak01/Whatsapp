@@ -12,7 +12,7 @@ import Messages from '../Messages/Messages';
 import io from 'socket.io-client';
 import { uri } from '../../App';
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://whatsapp-server-6afx.onrender.com";
 var socket, selectedChatCompare;
 
 function SingleChat({fetchAgain, setFetchAgain}) {
