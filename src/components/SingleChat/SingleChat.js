@@ -12,7 +12,6 @@ import Messages from '../Messages/Messages';
 import io from 'socket.io-client';
 import { uri } from '../../App';
 
-const ENDPOINT = "https://whatsapp-server-6afx.onrender.com/";
 var socket, selectedChatCompare;
 
 function SingleChat({fetchAgain, setFetchAgain}) {
@@ -71,7 +70,7 @@ function SingleChat({fetchAgain, setFetchAgain}) {
 
 
   useEffect(()=> {
-    socket = io(ENDPOINT, {
+    socket = io('https://whatsapp-server-6afx.onrender.com', {
          transports: ['websocket'],
         });
     socket.emit("setup", user);
