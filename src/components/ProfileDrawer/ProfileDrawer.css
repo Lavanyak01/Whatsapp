@@ -1,0 +1,39 @@
+.title_info{
+    background: #075e54;
+    color: white;
+    display: flex;
+    height: 100px;
+}
+.title_info > h2 {
+    padding: 30px;
+    font-weight: normal;
+}
+.profile_info > img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 20px 80px;
+}
+
+.info_name{
+    padding: 12px 20px 2px;
+    box-shadow: (0, 0, 0, .08);
+}
+
+.info_name>h3{
+    font-size: 20px;
+    color: #009688;
+    font-weight: 400;
+}
+
+.info_name> p{
+    margin: 14px 0;
+    color: #4A4A4A;
+    text-decoration: underline;
+}
+
+.profile_info > p:last-child {
+    color: #8696a0;
+    font-size: 13px;
+    padding: 15px 20px 28px 30px;
+}

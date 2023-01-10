@@ -1,0 +1,100 @@
+.signUp{
+    display: flex;
+    justify-content: center;
+    background-color: #25d36617;
+}
+
+._container{
+    width: 80%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(149, 185, 193, .2);
+}
+
+._left_side{
+    float: left;
+    width: 65%;
+    text-align: center;
+    background-color: #fff;
+    border-top-left-radius: 1rem;
+}
+.left_content{
+    margin-top: 150px;
+}
+
+._form{
+    display: flex;
+    flex-direction: column;
+    margin:  1em 8em;
+}
+
+button{
+    text-transform: none;
+    border: none;
+    background: #1a9d4b;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 1rem;
+    padding: 4px 35px;
+    font-weight:  600;
+    cursor: pointer;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: #12602f;
+}
+
+._right_side{
+    float: right;
+    background: #25d366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1 rem;
+}
+
+._right_content{
+    text-align: center;
+    padding: 0 5rem;
+}
+
+._right_content > h2,p{
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+._right_content > button{
+    background: #1a9d4b;
+}
+
+.password-show{
+    color: gray;
+    width: 20px;
+    font-weight: normal;
+    position: relative;
+    bottom: 33px;
+    left: 200px;
+    font-size: small;
+    cursor: pointer;
+}
+._user_pic{
+    position: relative;
+    bottom: 18px;
+    margin-left: 3px;
+    color: gray;
+}
+._user_pic > input{
+    border-radius: 0;
+}
+
+._user_pic>label {
+    margin-left: 0;
+    float: left;
+    margin-bottom: 5px;
+    color: rgb(55, 49, 49);
+}
+

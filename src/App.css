@@ -1,0 +1,25 @@
+.app{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #dadbd3;
+}
+
+.app_body{
+  display: flex;
+  width: 95vw;
+  height: 94vh;
+  background-color: #ededed;
+  margin-top: 25px;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0, 0.75);
+  position: fixed;
+  z-index: 10;
+  border-radius: 5px;
+}
+
+.top_bar{
+  height: 100px;
+  position: fixed  !important;
+  z-index: 1 !important;
+  background-color: #075e54 !important;
+}

@@ -1,0 +1,6 @@
+.chat_modal > h3{
+    font-size: 35px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}

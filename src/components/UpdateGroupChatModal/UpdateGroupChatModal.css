@@ -1,0 +1,42 @@
+.group_name{
+    font-size: 25px;
+    font-family: serif;
+    font-weight: normal;
+}
+
+.form_update, .form_add{
+    display: flex;
+}
+
+.form_update>input{
+    border: 1px solid gray !important;
+}
+
+.form_add>input{
+    border: 1px solid gray !important;
+    padding: 8px !important;
+    width: 330px !important;
+}
+
+.update_btn{
+    width: 4%;
+    font-size: 15px;
+    background: teal;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.update_btn:hover{
+    background: teal;
+}
+
+.leave_btn{
+    background: red;
+}
+.leave_btn:hover{
+    background: red;
+}
