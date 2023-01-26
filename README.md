@@ -11,7 +11,7 @@ This project is a progressive web application that clones the whatsapp web, whic
 
 ### Screenshots
 
-![home](https://github.com/Lavanyak01/whatsapp/blob/main/public/pictures/home.jpg?raw=true)
+![home](https://github.com/Lavanyak01/whatsapp/blob/main/public/pictures/home.jpg?raw=true width='400px')
 ![signup](https://github.com/Lavanyak01/whatsapp/blob/main/public/pictures/signup.jpg?raw=true)
 ![login](https://github.com/Lavanyak01/whatsapp/blob/main/public/pictures/login.jpg?raw=true)
 ![group](https://github.com/Lavanyak01/whatsapp/blob/main/public/pictures/group%20.jpg?raw=true)
