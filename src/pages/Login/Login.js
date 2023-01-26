@@ -38,7 +38,11 @@ const submitHandler = async (e) => {
     );
     localStorage.setItem('userInfo', JSON.stringify(data));
     navigate('/chats');
-  } catch(err) {}
+  } catch(err) {
+    toast.error('Please check your details!', {
+      position: "top-center",
+      });
+  }
 }
 
   return (
